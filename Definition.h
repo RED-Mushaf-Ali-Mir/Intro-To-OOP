@@ -8,9 +8,9 @@ class Student{
     
     public:
 
-    Student(int r=0000,int c=0);
+    Student(int ,int );
     
-    void check_validity(int r);
+    void check_validity(int );
 
     void Class_back();
 };
