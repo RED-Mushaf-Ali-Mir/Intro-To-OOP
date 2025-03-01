@@ -8,7 +8,7 @@ Student::Student(int r=0,int c=0){
     Class=c;
 }
 
-int Student::check_validity(int r){
+void Student::check_validity(int r){
     if(r==RollNumber)
        cout<<"\n\tValid Student.";
 }

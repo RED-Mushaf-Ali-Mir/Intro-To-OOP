@@ -10,7 +10,7 @@ class Student{
 
     Student(int r=0000,int c=0);
     
-    int check_validity(int r);
+    void check_validity(int r);
 
     void Class_back();
 };
