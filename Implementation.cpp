@@ -9,9 +9,7 @@ Student :: Student(){
     Class=0;
 }
 
-Student::Student(int r,int c){
-    RollNumber=r;
-    Class=c;
+Student::Student(int r,int c):RollNumber(r),Class(c){
 }
 
 void Student::check_validity(int r){
