@@ -20,6 +20,8 @@ static  int NoofStu;
 
     void display();
 
+    static int alwcall(int );
+
     
 };
 

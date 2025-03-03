@@ -29,3 +29,9 @@ void Student :: display(){
     cout<<RollNumber<<" "<<Class<<"\n";
 }
 
+int Student :: alwcall(int a){
+     //directly using static values in function
+     NoofStu=a;
+
+    return NoofStu;
+}

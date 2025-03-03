@@ -15,8 +15,9 @@ int main(){
 
     cout<<"\nThe Content of  s1 :";s1.display();
     cout<<"\nThe Content of s2 :";s2.display();
+    cout<<"\nThe Static Function :"<<Student::alwcall(55);
     
-    
+
 
     return 0; 
 }
