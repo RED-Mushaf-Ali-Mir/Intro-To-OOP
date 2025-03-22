@@ -1,28 +1,38 @@
 #ifndef Def_H
 #define Def_H
 
-class Student{
+class Signup{
     private:
-        int RollNumber;
-        int Class;
-static  int NoofStu;
+
+        string username;
+        string password;
+        int key;
+        int account_num;
+static  int acounts_created;
+        bool pass_chck(){}
+        bool set_key(){}
     public:
 
-    Student();
-
-    Student(int ,int );
+    Signup(){}
     
-    void check_validity(int );
+    bool set_username(){}
+    bool set_password(){}
+    bool set_key(){}
+    bool AccCreated(){}
+};
 
-    void Class_back();
+class Login{
+     private:
+    string username;
+    string password;
+    int key; 
 
-    Student copyobj();
-
-    void display();
-
-    static int alwcall(int );
-
+    public:
+    Login(string,string){}
     
+    bool chck_Account(){}
+    bool change_pass(){}
+
 };
 
 #endif
